@@ -1,4 +1,4 @@
-public class Truck extends Auto implements Vehicle{
+public class Truck extends Auto implements UpdateTyre, CheckTrailer, CheckEngine {
 
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);

@@ -1,4 +1,4 @@
-public class Car extends Auto implements Vehicle{
+public class Car extends Auto implements UpdateTyre, CheckEngine {
 
 
     public Car(String modelName, int wheelsCount) {

@@ -1,4 +1,4 @@
-public class Bicycle extends Auto implements Vehicle{
+public class Bicycle extends Auto implements UpdateTyre {
 
 
     public Bicycle(String modelName, int wheelsCount) {
